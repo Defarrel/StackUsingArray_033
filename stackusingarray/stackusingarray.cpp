@@ -38,4 +38,15 @@ public:
 	bool empty() {
 		return (top == -1);
 	}
+
+	void display() {
+		if (empty()) {
+			cout << "\nstack is empty" << endl;
+		}
+		else {
+			for (int temp = top; temp >= 0; temp--) {
+				cout << stack_array[temp] << endl;
+			}
+		}
+	}
 };
