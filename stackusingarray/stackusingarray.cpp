@@ -67,9 +67,9 @@ int main() {
 		char ch = (input.empty() ? '0' : input[0]);
 		switch (ch) {
 		case '1': {
+			cout << "\nInput your elememt: ";
 			string element;
-			cout << "Input your elememt: " << endl;
-			cin >> element;
+			getline(cin, element);
 			s.push(element);
 			break;
 		}
@@ -90,6 +90,7 @@ int main() {
 		default:
 			cout << "\nInvalid choice" << endl;
 			break;
+		}
 		}
 	}
 }
