@@ -50,3 +50,7 @@ public:
 		}
 	}
 };
+
+int main() {
+	stack s;
+}
