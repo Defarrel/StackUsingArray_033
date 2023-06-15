@@ -25,4 +25,8 @@ public:
 
 		return element;
 	}
+
+	bool empty() {
+		return (top == -1);
+	}
 };
